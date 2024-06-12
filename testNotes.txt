@@ -1,0 +1,12 @@
+EX1)
+
+1 - test users name is rendered in the dom
+use getByText query method
+
+2 - pass an admin user to test case and assert that Edit button
+is rendered
+
+3 - pass a non admin user to test case and assert the edit button is not in the dom
+Cannot use getByRole, will throw error as edit button will not be in the dom
+Use queryByRole
+expect().not.toBeInTheDocument()
