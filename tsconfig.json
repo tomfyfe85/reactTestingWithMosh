@@ -5,6 +5,8 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "types": ["vitest/globals"],
+    // types added to allow describe etc to be complied with out importing into a file
 
     /* Bundler mode */
     "moduleResolution": "bundler",
