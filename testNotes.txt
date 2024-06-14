@@ -1,3 +1,5 @@
+itr - import render, screen
+
 EX1)
 
 -1 - test users name is rendered in the dom
@@ -11,3 +13,10 @@ expect().toBeInTheDocument()
 Cannot use getByRole, will throw error as edit button will not be in the dom
 Use queryByRole 
 expect().not.toBeInTheDocument()
+
+EX2) Product image gallery
+
+1) Render componemt with an empty array, then assert that the DOM is empty
+Search: React testing library - assert that the DOM is empty
+2) Render with a list of URLS and assert that we have a list of images with the correct source attributes
+
